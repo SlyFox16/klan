@@ -1,0 +1,256 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+html, body{
+   height:100%;
+   background:url(/images/template/body_bg.jpg); 
+}
+
+img{
+	border:none;
+}
+
+h1{
+	font-size:26px;
+}
+
+a{
+	outline:none;
+}
+
+blockquote{
+	background-color:#FFF;
+	border:1px #7F9DB9 solid;
+	color:#000;
+	padding:0px 10px 0px;
+	font-style:italic;
+}
+
+#conteiner{
+	margin:0px auto;
+	width:1100px;
+	height:100%;
+}
+
+#wraper{
+	background:url(/images/template/main_bg.gif) repeat-y;
+	min-height:100%;
+}
+
+#top{
+	background:url(/images/template/top_bg.jpg) no-repeat;
+	height:668px;
+}
+
+#content{
+	width:620px;
+	margin-top:-470px;
+	margin-left:82px;
+	padding-bottom:97px;
+	float:left;
+}
+
+#right{
+	height:300px;
+	width:290px;
+	float:right;
+	margin-top:-320px;
+	margin-right:85px;
+	padding-bottom:97px;
+}
+
+#wraper:after {
+	content: '';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height:0;
+}
+
+#bottom{
+	margin-top:-97px;
+	background:url(/images/template/foot_bg.jpg) no-repeat;
+	height:97px;
+}
+
+#top_menu{
+	margin-top:-45px;
+	width:503px;
+	text-align:center;
+	margin-left:40px;
+	float:left;
+}
+
+#artName{
+	padding:20px 0 20px;
+	text-align:center;
+	color:#FFF;
+}
+
+#artInf{
+	padding-right:40px;
+	text-align:right;
+	color: #9FF;
+}
+
+#artText{
+	color:#FFF;
+	padding:40px 20px 50px;
+}
+
+#comment{
+	width:505px;
+	margin-left:20px;
+}
+
+#f1{
+	width:99.2%;
+}
+
+#buttons, #buttons2{
+	background-color:#CCC;
+	padding:3px;
+}
+
+#smiles{
+	background-color:#CCC;
+	width:493px; 
+	border:1px #7F9DB9 solid; 
+	padding:5px;
+	display:none;
+}
+
+#sm{float:right;}
+
+#artCom{
+	margin:20px 20px 0;
+}
+
+td.ava{
+	border:1px #363636 solid;
+	padding:5px 5px 3px;;
+	text-align:center;
+}
+
+td.ava span{
+	margin-top:3px;
+	display:block;
+	font-weight:bold;
+	color:#00008B;
+}
+
+td.date{
+	border:1px #363636 solid;
+	height:20px;
+	padding-left:20px;
+	color:#39302B;
+	font-size:12px;
+	font-weight:bold;
+}
+
+td.soob{
+	width:100%;
+	border:1px #363636 solid;
+	color:#000;
+	padding:10px;
+	vertical-align:text-top;
+}
+
+.tableCast{
+	padding-left:10px;
+	vertical-align:top;
+}
+
+.tableLabel{
+	text-align:right;
+	vertical-align:top;
+}
+
+#level9-10{
+	vertical-align:top;
+}
+
+textarea#tanks{
+	width:146px;
+}
+
+.day{
+	color:#0FF;
+	font-weight:bold;
+}
+
+div#castField{
+	display:none;
+	margin-left:20px;
+}
+
+div#agree{
+	margin:0 20px 40px 20px;
+	font-size:18px;
+	color:#6F3;
+	cursor:pointer;
+}
+
+.photoAlb {
+	margin:8px 20px 0px 20px;
+	overflow: hidden;
+}
+ul.col3 {
+	margin: 10px 0;
+	list-style: none;
+	float: left;
+}
+ul.col3 li {
+	float: left;
+	padding: 10px 20px;
+	width: 150px;
+}
+
+ul.col3 li img{
+	-webkit-box-shadow: 0px 1px 5px 0px #000;
+    -moz-box-shadow: 0px 1px 5px 0px #000;
+    box-shadow: 0px 1px 5px 0px #000;
+}
+
+#reviewInf{
+	padding-left: 20px;
+}
+
+.AdmMenu{
+	color:#FFF; 
+	font-size:20px; 
+	text-decoration:none;
+}
+
+#admList{
+	list-style: none; margin:40px 20px 20px 0;
+}
+
+#admList li:hover{
+	background-color:#333;
+}
+/*-------------ХАКИ ДЛЯ OPERA----------------------*/
+@media not all and (-webkit-min-device-pixel-ratio) { 
+  #artName{
+	padding:20px 0 20px;
+  } 
+  
+  input {
+	padding:3px;
+  }
+  
+  #comment{
+	width:513px;
+  }
+
+  #f1 {
+	width:509px;
+  }
+  
+  #smiles{
+	width:501px; 
+  }
+}
+/*-------------ХАКИ ДЛЯ OPERA----------------------*/

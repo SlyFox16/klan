@@ -1,0 +1,121 @@
+﻿*{
+	margin: 0; 
+	padding: 0;
+}
+ul#topnav{
+	list-style: none;
+	float: left;
+}
+ul#topnav li{
+	float: left;
+}
+
+/*----- for sub menu elemrnt ------*/
+ul#topnav li.admin{
+	position:relative;
+}
+/*----- for sub menu elemrnt ------*/
+
+ul#topnav a{
+	display:block;
+	height:53px;
+	background-position:left top;
+}
+
+ul#topnav a:hover{
+	background-position:left -53px;
+}
+
+/*----- for sub menu elemrnt ------*/
+#admin ul#topnav li.admin:hover>a{
+	background-position:left bottom;
+}
+
+ul#topnav li.admin:hover>a{
+	background-position:left -53px;
+}
+
+
+ul#topnav li.admin:hover>ul{
+	visibility:visible;
+}
+/*----- for sub menu elemrnt ------*/
+
+ul#topnav li.main a {
+	background-image:url(/images/menu/main.png);
+	width: 88px;
+}
+ul#topnav li.about a {
+	background-image:url(/images/menu/about.jpg);
+	width: 84px;
+}
+ul#topnav li.cast a {
+	background-image:url(/images/menu/cast.jpg);
+	width: 125px;
+}
+ul#topnav li.album a {
+	background-image:url(/images/menu/album.jpg);
+	width: 120px;
+}
+ul#topnav li.settings a {
+	background-image:url(/images/menu/settings.jpg);
+	width: 105px;
+}
+
+ul#topnav li.admin>a {
+	background-image:url(/images/menu/admin.jpg);
+	width: 130px;
+}
+
+ul#topnav li.review a {
+	background-image:url(/images/menu/review.png);
+	width: 86px;
+}
+
+#main li.main a, 
+#about li.about a, 
+#cast li.cast a, 
+#album li.album a, 
+#settings li.settings a,
+#review li.review a, 
+#admin li.admin>a 
+{
+	background-position: left bottom;
+}
+
+/*----------------- sub menu -----------------------*/
+
+ul#submenu{
+	visibility:hidden;
+	list-style: none;
+	position:absolute;
+	left:-1px;
+}
+
+ul#submenu li{
+	float:none;
+}
+
+ul#submenu a:hover{
+	background-position:left -53px;
+}
+
+ul#submenu li.add a {
+	background-image:url(/images/menu/add.jpg);
+	width: 200px;
+}
+
+ul#submenu li.articles a {
+	background-image:url(/images/menu/articles.jpg);
+	width: 200px;
+}
+
+ul#submenu li.pools a {
+	background-image:url(/images/menu/pools.jpg);
+	width: 200px;
+}
+
+ul#submenu li.users a {
+	background-image:url(/images/menu/users.jpg);
+	width: 200px;
+}
